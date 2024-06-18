@@ -1,6 +1,6 @@
 # Finance Package
 
-A Python package for analyzing Apple stock data. This package provides functionalities to load, clean, analyze, and visualize Apple stock data, with a focus on ease of use and reproducibility.
+A Python package for analyzing stock data. This package provides functionalities to load, clean, analyze, and visualize Apple stock data, with a focus on ease of use and reproducibility.
 
 ```
 finance_package/
