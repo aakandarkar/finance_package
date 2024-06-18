@@ -10,7 +10,7 @@ from finance_package import (
 
 if __name__ == "__main__":
     # Load data
-    file_path = 'finance_data/data/finance_charts_apple.csv'
+    file_path = './data/finance_charts_apple.csv'
     df = load_data(file_path)
 
     # Task 1: Compute summary statistics
@@ -24,7 +24,7 @@ if __name__ == "__main__":
     df = add_day_of_week(df)
 
     # Task 4: Filter and save above average volume
-    output_file = 'finance_data/output/filtered_data.csv'
+    output_file = './output/filtered_data.csv'
     filter_and_save_above_average_volume(df, output_file)
     print(f"Filtered data saved to {output_file}")
 
@@ -32,7 +32,7 @@ if __name__ == "__main__":
     weekly_df = aggregate_to_weekly(df)
 
     # Save weekly aggregated data to a new CSV file
-    weekly_file = 'finance_data/output/weekly_data.csv'
+    weekly_file = './output/weekly_data.csv'
     weekly_df.to_csv(weekly_file, index=False)
     print(f"Weekly aggregated data saved to {weekly_file}")
 
