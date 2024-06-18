@@ -2,6 +2,7 @@
 
 A Python package for analyzing Apple stock data. This package provides functionalities to load, clean, analyze, and visualize Apple stock data, with a focus on ease of use and reproducibility.
 
+```
 finance_package/
 │
 ├── finance_package/
@@ -21,7 +22,7 @@ finance_package/
 │
 ├── setup.py
 └── README.md
-
+```
 
 
 
